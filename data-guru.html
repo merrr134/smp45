@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+        <title>data guru</title>
+	    <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+	    <!----css3---->
+        <link rel="stylesheet" href="css/custom.css">
+		
+		
+		<!--google fonts -->
+	    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+	
+	
+	   <!--google material icon-->
+      <link href="https://fonts.googleapis.com/css2?family=Material+Icons"rel="stylesheet">
+
+  </head>
+  <body>
+  
+
+
+<div class="wrapper">
+     
+	  <div class="body-overlay"></div>
+	 
+	 <!-------sidebar--design------------>
+	 
+	 <div id="sidebar">
+	    	<div class="sidebar-header">
+		   
+			<div id="sidebar">
+				<div class="sidebar-header text-center">
+				    <div class="container">
+					  <h3>SMPN 45 MAKASSAR</h3>
+					  <img class="mt-3 ml-lg-5 mx-auto d-block" src="img/WhatsApp Image 2023-08-10 at 12.41 1 (1).svg" alt="">
+				    </div>
+				</div>
+				<!-- ... menu items ... -->
+				<div class="container">
+					<h3 class="text-center">Menu</h3>
+					
+					<hr class="border-1 bg-dark">
+				</div>
+				<ul class="list-unstyled component m-0">
+					
+					<li class="">
+					<a href="data-siswa.html" class=""><img src="img/add_chart (1).svg" alt="" class="mr-2">Data Siswa</a>
+					</li><br>
+					<li class="">
+					<a href="data-guru.html" class=""><img src="img/database.svg" alt="" class="mr-2">Data Guru</a>
+					</li><br>
+					<li class="">
+					<a href="absen-siswa.html" class=""><img src="img/content_paste.svg" alt="" class="mr-2">Absen Siswa</a>
+					</li><br>
+					<li class="">
+					<a href="absen-ekskul.html" class=""><img src="img/assignment (1).svg" alt="" class="mr-2">Absen Ekskul</a>
+					</li><br>
+					<li class="">
+					<a href="rekap-absen.html" class=""><img src="img/assignment_add.svg" alt="" class="mr-2">Rekap Absen</a>
+					</li><br>
+					<li class="">
+					<a href="riwayat-absen.html" class=""><img src="img/history (1).svg" alt="" class="mr-2">Riwayat Absen</a>
+					</li><br>
+					<li class="">
+					<a href="Kelas.html" class=""><img src="img/school.svg" alt="" class="mr-2">Kelas</a>
+					</li><br>
+					<li class="">
+					<a href="#" class=""><img src="img/account_circle.svg" alt="" class="mr-2">Profil</a>
+					</li><br>
+					<li class="">
+					<a href="#" class=""><img src="img/move_item.svg" alt="" class="mr-2">Log Out</a>
+					</li>
+				    
+				    </ul>
+			  </div>
+			  
+			
+		</div>
+		
+	 </div>
+
+	 
+   <!-------sidebar--design- close----------->
+   
+   
+   
+      <!-------page-content start----------->
+   
+      <div id="content">
+	     
+		  <!------top-navbar-start-----------> 
+		     
+		<div class="top-navbar">
+		     <div class="xd-topbar">
+			     <div class="row">
+				     <div class="col-2 col-md-1 col-lg-1 order-2 order-md-1 align-self-center">
+					    <div class="xp-menubar bg-dark">
+						    <span class="material-icons text-white">signal_cellular_alt</span>
+						</div>
+					</div> 
+				</div> 
+				<div class="xp-breadcrumbbar text-center">
+				    	<h1 class="page-title">Absensi Sekolah SMP NEGERI 45 MAKASSAR</h1>
+					<ol class="breadcrumb">
+					  	<li class="breadcrumb-item"><a href="#">Jalan Timor 45Y 73J Makassar - Sulawesi Selatan, INDONESIA</a></li><br>
+					</ol>
+				</div>	 
+			</div>
+		</div><br>
+		  <!------top-navbar-end-----------> 
+		  
+		  
+		   <!------main-content-start-----------> 
+		     
+		<form action="" method="post"><br>
+			<div class="mb-3 ml-3" style="width: 95%;">
+			    <label for="namaLengkap" class="form-label">Nama Lengkap</label>
+			    <input type="text" class="form-control" id="namaLengkap" name="namaLengkap" placeholder="Nama Lengkap">
+			</div>
+			<div class="mb-3 ml-3" style="width: 95%;">
+			    <label for="nis" class="form-label">NIP</label>
+			    <input type="text" class="form-control" id="nis" name="nis" placeholder="NIP">
+			</div>
+			<div class="form-group mb-3 ml-3" style="width: 95%">
+				<label for="wanita"><b>Wanita</b></label>
+				<input type="radio" name="jk" id="wanita" value="wanita">
+				<label for="pria"><b>Pria</b></label>
+				<input type="radio" name="jk" id="pria" value="pria"><br>
+			</div>
+			<div class="form-group mb-3 ml-3" style="width: 95%">
+				<label for="jurusan">Mapel Yang Di Ampu</label>
+				<select class="form-control" id="jurusan" name="jurusan">
+				    <option value="Pilih Jurusan">Pilih Mapel</option>
+				    <option value="RPL">IPS</option>
+				    <option value="RPL">MATEMATIKA</option>
+				    <option value="TKJ">AGAMA</option>
+				</select>
+			</div>
+			<div class="mb-3 ml-3" style="width: 95%;">
+			    <label for="tanggalLahir" class="form-label">Tanggal Lahir</label>
+			    <input type="date" class="form-control" id="tanggalLahir" name="tanggalLahir">
+			</div>
+			<div class="mb-3 ml-3" style="width: 95%;">
+			    <label for="alamat" class="form-label">Alamat</label>
+			    <textarea class="form-control" id="alamat" name="alamat" rows="3" placeholder="Alamat"></textarea>
+			</div>
+			<div class="mb-3 ml-3" style="width: 95%;">
+			    <label for="noTelepon" class="form-label">No Telepon</label>
+			    <input type="tel" class="form-control" id="noTelepon" name="noTelepon" placeholder="No Telepon">
+			</div>
+			<button class="btn btn-primary mb-3 ml-3" style="width: 95%;">Submit</button>
+		</form>
+		  
+					
+									   <!----add-modal start--------->
+		
+
+					   <!----edit-modal end--------->
+					   
+					   
+					   
+					   
+					   
+				   <!----edit-modal start--------->
+		
+
+					   <!----edit-modal end--------->	   
+					   
+					   
+					 <!----delete-modal start--------->
+		
+
+					   <!----edit-modal end--------->   
+					   
+					
+					
+				 
+			     </div>
+			  </div>
+		  
+		    <!------main-content-end-----------> 
+		  
+		 
+		 
+		 <!----footer-design------------->
+		 
+		 
+		 
+		 
+		 
+		 
+	  </div>
+   
+</div>
+
+
+
+<!-------complete html----------->
+
+
+
+
+
+  
+     <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="js/jquery-3.3.1.slim.min.js"></script>
+   <script src="js/popper.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/jquery-3.3.1.min.js"></script>
+  
+  
+  <script type="text/javascript">
+       $(document).ready(function(){
+	      $(".xp-menubar").on('click',function(){
+		    $("#sidebar").toggleClass('active');
+			$("#content").toggleClass('active');
+		  });
+		  
+		  $('.xp-menubar,.body-overlay').on('click',function(){
+		     $("#sidebar,.body-overlay").toggleClass('show-nav');
+		  });
+		  
+	   });
+  </script>
+  
+  
+
+
+
+  </body>
+  
+  </html>
+
+
